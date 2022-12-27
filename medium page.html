@@ -1,0 +1,221 @@
+<!DOCTYPE html> <!--DISCLAIMER: Ho voluto rendere tutto "cliccabile" e ho applicato anchor tag ovunque il sito lo richiedesse-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Digital magazine">
+    <meta name="keywords" content="publications">
+    <meta name="author" content="Adriana Benedetti">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Medium - Where good ideas find you.</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <script src="https://kit.fontawesome.com/e2183711b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,100,0,0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo"> 
+            <a href="https://medium.com/" target="_self"> <!--logo rimanda alla homepage-->
+                <img src="logo_medium.png" alt="logo_medium">
+            </a>
+        </div>
+        <div id="tools">
+         <a href="#"><i class="material-symbols-outlined">search</i></a>
+         <a href="#"><i class="material-symbols-outlined">bookmarks</i></a>
+         <a href="#"><i class="material-symbols-outlined">notifications</i></a>
+         <button>Resume membership</button>
+         <span>T</span>
+        </div>
+    </header>
+    <main> <!--inizio del container padre della pagina-->
+        <section id="left_column"> <!--INIZIO DELLA SEZIONE SX DELLA PAGINA-->
+            <nav> <!--Navbar in alto-->
+                <a href="#"><span>FOLLOWING</span></a> 
+                <a id="active_link" href="#" target="_self"><span>RECOMMENDED FOR YOU</span></a> <!--Per visualizzazione come da mockup -->
+            </nav>
+            <article> <!--Primo articolo-->
+                <div>
+                    <img src="article_1_user_icon.png" alt="user_icon">
+                    <a href="#">Kolby Sisk</a> <span>in</span><a href="">Udacity Eng & Data</a>
+                </div>
+                <img class="article_img" src="article_1_img.png" alt="article_1"> <!--Classe per le immagini degli article-->
+                <a href="#"><h3>React state management in 2022- Return of the Redux</h3></a>
+                <h6>At the beginning of the year if you told me I'd be publishing a recommendation to use Redux I would have laughed at your face. Yet her...</h6>
+                <div class="sottoparagrafo"> <!--Apro un div per poter aplicare flex a questi due div figli-->
+                    <div> <!--div figlio 1-->
+                        Dec 3 · 4 min read · <button class="tag_button"><a href=""> React </a></button> · Popular on Medium
+                    </div>
+                    <div> <!--div figlio 2-->
+                        <a href="#"><i class="material-symbols-outlined">bookmark_add</i></a>
+                        <a href="#"><i class="material-symbols-outlined">more_horiz</i></a>
+                    </div>
+                </div>             
+            </article>
+            <article> <!--Secondo articolo-->
+                <div>
+                    <img src="article_2_user_icon.png" alt="user_icon">
+                    <a href="#">Navoda Nilakshi</a>
+                </div>
+                <img class="article_img" src="article_2_img.png" alt="article_2"> <!--Classe per le immagini degli article-->
+                <a href="#"><h3>How To Sanitize Your Express App Against MongoDB Injection & Cross-site Scripting.</h3></a>
+                <h6>Easiest way to sanitize your express app.</h6>
+                <div class="sottoparagrafo"> <!--Apro un div per poter aplicare flex a questi due div figli-->
+                    <div> <!--div figlio 1-->
+                        Dec 19 · 6 min read · <button class="tag_button"><a href=""> Web Development </a></button> · Based on your reading history
+                    </div>
+                    <div> <!--div figlio 2-->
+                        <a href="#"><i class="material-symbols-outlined">bookmark_add</i></a>
+                        <a href="#"><i class="material-symbols-outlined">more_horiz</i></a>
+                    </div>
+                </div>             
+            </article>
+            <article> <!--Terzo articolo-->
+                <div>
+                    <img src="article_3_user_icon.png" alt="user_icon">
+                    <a href="#">Divyesh Bhalani</a> <span>in</span><a href="">DhiWise</a>
+                </div>
+                <img class="article_img" src="article_3_img.png" alt="article_3"> <!--Classe per le immagini degli article-->
+                <a href="#"><h3>React 18 new features and updates</h3></a>
+                <h6>Know about some cool features and updates of React 18.</h6>
+                <div class="sottoparagrafo"> <!--Apro un div per poter aplicare flex a questi due div figli-->
+                    <div> <!--div figlio 1-->
+                        Nov 24 · 4 min read · <button class="tag_button"><a href=""> Reactjs </a></button> · Popular on Medium
+                    </div>
+                    <div> <!--div figlio 2-->
+                        <a href="#"><i class="material-symbols-outlined">bookmark_add</i></a>
+                        <a href="#"><i class="material-symbols-outlined">more_horiz</i></a>
+                    </div>
+                </div>             
+            </article>
+            <article> <!--Quarto articolo-->
+                <div>
+                    <img src="article_4_user_icon.png" alt="user_icon">
+                    <a href="#">Vsevolod Ulyanovich</a> <span>in</span><a href="">Fively Blog</a>
+                </div>
+                <img class="article_img" src="article_4_img.png" alt="article_3"> <!--Classe per le immagini degli article-->
+                <a href="#"><h3>15 Best Web App Ideas for a Startup in 2021</h3></a>
+                <h6>15 Startup Ideas and Technologies That Could Make You a Millionaire</h6>
+                <div class="sottoparagrafo"> <!--Apro un div per poter aplicare flex a questi due div figli-->
+                    <div> <!--div figlio 1-->
+                        Oct 29 · 6 min read · <button class="tag_button"><a href=""> Web Development </a></button> · Popular on Medium
+                    </div>
+                    <div> <!--div figlio 2-->
+                        <a href="#"><i class="material-symbols-outlined">bookmark_add</i></a>
+                        <a href="#"><i class="material-symbols-outlined">more_horiz</i></a>
+                    </div>
+                </div>             
+            </article>
+            <article> <!--Quinto articolo-->
+                <div>
+                    <img src="article_1_user_icon.png" alt="user_icon">
+                    <a href="#">Kolby Sisk</a> <span>in</span><a href="">Udacity Eng & Data</a>
+                </div>
+                <img class="article_img" src="article_5_img.png" alt="article_5_img"> <!--Classe per le immagini degli article-->
+                <a href="#"><h3>Understandin re-rendering and memorization in React</h3></a>
+                <h6>The following are quick tips to increase performance in your React application by understanding re-rendering and memorization. To better...</h6>
+                <div class="sottoparagrafo"> <!--Apro un div per poter aplicare flex a questi due div figli-->
+                    <div> <!--div figlio 1-->
+                        Dec 6 · 4 min read · <button class="tag_button"><a href=""> React </a></button> · Popular on Medium
+                    </div>
+                    <div> <!--div figlio 2-->
+                        <a href="#"><i class="material-symbols-outlined">bookmark_add</i></a>
+                        <a href="#"><i class="material-symbols-outlined">more_horiz</i></a>
+                    </div>
+                </div>             
+            </article>
+            <article> <!--Sesto articolo-->
+                <div>
+                    <img src="article_6_user_icon.png" alt="user_icon">
+                    <a href="#">Arun Kashyap</a> <span>in</span><a href="">Nerd for Tech</a>
+                </div>
+                <img class="article_img" src="article_6_img.png" alt="article_6"> <!--Classe per le immagini degli article-->
+                <a href="#"><h3>Why Get Rid Of PromisesTo Fetch Data In React?</h3></a>
+                <h6>How Can You Make Your Code Well Structured !!</h6>
+                <div class="sottoparagrafo"> <!--Apro un div per poter aplicare flex a questi due div figli-->
+                    <div> <!--div figlio 1-->
+                        Jul 5 · 5 min read · <button class="tag_button"><a href=""> React </a></button> · Selected for you
+                    </div>
+                    <div> <!--div figlio 2-->
+                        <a href="#"><i class="material-symbols-outlined">bookmark_add</i></a>
+                        <a href="#"><i class="material-symbols-outlined">more_horiz</i></a>
+                    </div>
+                </div>             
+            </article>
+        </section> <!--FINE DELLA SEZIONE SX-->
+        <section id="right_column"> <!--INIZIO DELLA BARRA VERTICALE A DX-->
+            <div id="twitter_box"> <!--div relativo alla box con i collegamenti social-->
+                <img src="medium_icon.png" alt="medium_icon">
+                <i class="material-symbols-outlined">add</i>
+                <img src="twitter_logo.png" alt="twitter">
+                <p>Discover Medium writers you already follow on Twitter.</p>
+                <p><button><a id="twitter_button" href="#"><img src="twitter_logo.png" alt="twitter"> Connect to Twitter</a></button></p>
+                <p><a id="maybe_later" href="">Maybe Later</a></p>
+            </div>
+            <div id="tags"> <!--div dei recommended topics con tags-->
+                <h6>Recommended topics</h6>
+                <button><a href="#">Technology</a></button>
+                <button><a href="#">Money</a></button>
+                <button><a href="#">Business</a></button>
+                <button><a href="#">Productivity</a></button>
+                <button><a href="#">Psychology</a></button>
+                <button><a href="#">Mindfulness</a></button>
+                <button><a href="#">Art</a></button>
+            </div>
+            <div id="suggestions"> <!--div suggestions who to follow-->
+                <h6>Who to follow</h6>
+                <article> <!--primo user suggerito-->
+                    <img src="user_icon_round_1.png" alt="user_img">
+                    <h5>Lessig</h5>
+                    <p>law professor, activist.</p> <button><a href="#">Follow</a></button> 
+                </article>
+                <article> <!--secondo user suggerito-->
+                    <img src="user_icon_round_2.png" alt="user_img">
+                    <h5>David Wineberg</h5>
+                    <p>Author, The Straight Dope or what I learned from my first...</p> <button><a href="#">Follow</a></button>
+                </article>
+                <article> <!--terzo user suggerito-->
+                    <img src="user_icon_round_3.png" alt="user_img">
+                    <h5>Bonsu Thompson</h5>
+                    <p>Bonsu Thompson is a writer, producer, Brooklynite and 2019...</p> <button><a href="#">Follow</a></button>
+                </article>
+            </div>
+            <div id="saved"> <!--sezione degli articoli salvati-->
+                <h6>Recently saved</h6>
+                <article> <!--articolo salvato-->
+                    <p>
+                        <img src="thumbnail_1.png" alt="user_img">
+                        <a href="#">Eva Kiffenheim</a> in <a href="#">Age of Awareness</a>
+                    </p>
+                    <h5>The Feynman Technique Will Make You Remember What You Read</h5>
+                    <p>Oct 2, 2020 · 6 min read <span class="material-symbols-outlined">star</span></p>
+                </article>
+                <article> <!--Articolo salvato-->
+                    <p>
+                        <img src="thumbnail_2.png" alt="user_img">
+                        <a href="#">chrissy teigen</a>
+                    </p>
+                    <h5>Hi.</h5>
+                    <p>Oct 27, 2020 · 8 min read</p>
+                </article>
+                <article><a href="#">See all (3)</a></article> 
+            </div> <!--fine della sezione articoli salvati-->
+            <footer> <!--inizio footer situato nella barra a dx-->
+                <a href="#">Help</a>
+                <a href="#">Status</a>
+                <a href="#">Writer</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">About</a>
+            </footer>
+        </section> <!--FINE DELLA BARRA VERTICALE A DX-->
+    </main>  
+</body>
+</html>
+
+
